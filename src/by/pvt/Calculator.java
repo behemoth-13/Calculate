@@ -11,6 +11,7 @@ public class Calculator {
         double a = scanner.nextDouble();
         double b = scanner.nextDouble();
         double result = divide(a, b);
+
         System.out.println(result);
 
         double plus = plus(5, 6);
@@ -22,7 +23,11 @@ public class Calculator {
         System.out.println(multy);
 
 
+
+        System.out.println("результат деления " + a + "на" + b + " = " + result);
+
     }
+
 
     static double divide (double a, double b){
         return a/b;
@@ -33,4 +38,10 @@ public class Calculator {
     static double plus(double a, double b) {
         return a+b;
     }
+
+
+
+
+
+
 }
