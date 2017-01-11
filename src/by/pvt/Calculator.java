@@ -14,8 +14,10 @@ public class Calculator {
         System.out.println(result);
     }
 
-    static double divide(double a, double b){
+    static double divide (double a, double b){
         return a/b;
     }
-
+    static double multy (double a, double b){
+        return a*b;
+    }
 }
