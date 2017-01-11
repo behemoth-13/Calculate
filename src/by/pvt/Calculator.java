@@ -17,7 +17,7 @@ public class Calculator {
         System.out.println(plus);
 
         System.out.println();
-        
+
         double multy = multy(5, 6);
         System.out.println(multy);
 
