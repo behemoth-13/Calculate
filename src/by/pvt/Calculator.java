@@ -15,6 +15,9 @@ public class Calculator {
 
         double plus = plus(5, 6);
         System.out.println(plus);
+
+        double multy = multy(5, 6);
+        System.out.println(multy);
     }
 
     static double divide (double a, double b){
