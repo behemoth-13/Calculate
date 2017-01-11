@@ -12,8 +12,9 @@ public class Calculator {
         double a = scanner.nextDouble();
         double b = scanner.nextDouble();
         double result = divide(a, b);
-        System.out.println(result);
+        System.out.println("результат деления " + a + "на" + b + " = " + result);
     }
+
 
     static double divide (double a, double b){
         return a/b;
@@ -21,4 +22,10 @@ public class Calculator {
     static double multy (double a, double b){
         return a*b;
     }
+
+
+
+
+
+
 }
